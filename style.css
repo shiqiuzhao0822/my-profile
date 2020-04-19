@@ -1,0 +1,54 @@
+/*Colors and fonts*/
+body{
+	background-color: rgb(255,195,195);
+	color: rgb(34,93,107);
+	font-family: Courier;
+}
+
+
+h1{
+	color: rgb(59,73,84);
+	font-family: 'Lobster', cursive;
+	font-weight: 100; 
+	letter-spacing: 8px;
+	font-size: 56px
+	text-transform:uppercase;
+}
+h2,p{
+	font-family: 'Lora', serif;
+}
+
+a{
+	color: blue
+}
+a:hover {
+	color:yellow;
+}
+
+
+.container{
+	width: 700px
+	margin: 10px auto;
+}
+
+@media(max-width: 760px){
+	.container{
+		width: 600px
+	}
+}
+@media(max-width: 500px){
+	.container{
+		width: 400px
+	}
+}
+
+
+.card-yellow{
+	background-color: #f6eec7;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1)
+    padding: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 20px 0px
+
+}
