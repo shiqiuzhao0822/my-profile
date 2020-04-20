@@ -19,7 +19,7 @@ h2,p{
 }
 
 a{
-	color: blue
+	color: blue;
 }
 a:hover {
 	color:yellow;
@@ -27,18 +27,18 @@ a:hover {
 
 
 .container{
-	width: 700px
+	width: 700px;
 	margin: 10px auto;
 }
 
 @media(max-width: 760px){
 	.container{
-		width: 600px
+		width: 600px;
 	}
 }
 @media(max-width: 500px){
 	.container{
-		width: 400px
+		width: 400px;
 	}
 }
 
@@ -49,6 +49,6 @@ a:hover {
     padding: 40px;
     border-radius: 4px;
     text-align: center;
-    margin: 20px 0px
+    margin: 20px 0px;
 
 }
